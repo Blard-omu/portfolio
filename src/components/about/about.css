@@ -1,31 +1,26 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 35% 55%;
+    gap: 10%;
 }
 
 .about_me {
     width: 100%;
-    aspect-ratio: 1/1;
     background: linear-gradient(
         45deg, 
         transparent, 
-        var(--color-primary), 
+        var(--color-primary-variant), 
         transparent
     );
-    display: grid;
-    place-items: center;
 }
 
 .about_me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
 }
 
 .about_me-image:hover {
-    transform: rotate(0);
+    outline: 2px solid #fff;
 }
 
 .about_cards {
@@ -89,14 +84,15 @@
 
 /* media queries for small devices */
 @media screen and (max-width:600px) {
+  
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;
     }
 
     .about_cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
     .about_content {

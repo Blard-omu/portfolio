@@ -24,19 +24,19 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>1year Experience</small>
+              <small>2 years Experience</small>
             </article>
 
             <article className='about_card'>
               <FiUsers className='about_icon'/>
               <h5>Clients</h5>
-              <small>20+ Nigerian Clients</small>
+              <small>20+ Nigerian clients</small>
             </article>
 
             <article className='about_card'>
               <PiFolderOpen className='about_icon'/>
               <h5>Projects</h5>
-              <small>20+ projects done</small>
+              <small>15+ projects done</small>
             </article>
           </div>
 
