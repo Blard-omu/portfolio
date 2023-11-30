@@ -16,7 +16,7 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>
@@ -25,7 +25,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>
@@ -33,25 +33,25 @@ const Services = () => {
               </p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Building of responsive web applications</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Debugging</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Deployments</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Performance check</p>
@@ -66,35 +66,37 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Fullstack development, covering MERN, Python, Django.</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Offering guardiance and mentorship to aspiring developers</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Physical and Online Coaching</p>
             </li>
             <li>
-              <BiCheck className="service_list-icon" />
+            <span className="me-1">
+                <BiCheck className="service_list-icon" />
+              </span>
               <p>Conducting workshops on web development</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Technical Curricula Development</p>
             </li>
             <li>
-            <span>
+            <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Product Research</p>
@@ -109,7 +111,7 @@ const Services = () => {
 
           <ul className="service_list">
             <li>
-              <span>
+              <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>
@@ -118,7 +120,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <span>
+              <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>
@@ -127,7 +129,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <span>
+              <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>
@@ -137,7 +139,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <span>
+              <span className="me-1">
                 <BiCheck className="service_list-icon" />
               </span>
               <p>Open source contributions</p>
