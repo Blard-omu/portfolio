@@ -144,14 +144,7 @@ const Services = () => {
               </span>
               <p>Open source contributions</p>
             </li>
-            {/* <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Blogs</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Workshops</p>
-            </li> */}
+       
           </ul>
         </article>
       </div>
