@@ -10,7 +10,7 @@ import { GrReactjs } from "react-icons/gr";
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Here's</h5>
+      <h5>Check out</h5>
       <h2>My Stacks</h2>
 
       <div className="container experience_container">
