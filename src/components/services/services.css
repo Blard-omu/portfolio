@@ -5,11 +5,15 @@
 }
 
 .service {
-    height: fit-content;
+    height: 80vh;
     border-radius: 0 0 2rem 2rem;
     background: var(--color-bg-variant);
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    overflow-y: hidden;
+}
+.service:nth-child(2){
+    height: 87vh;
 }
 
 .service:hover {
@@ -57,8 +61,8 @@
         gap: 2rem;
     }
 
-    .service {
-        height: auto;
+    .service, .service:nth-child(2) {
+        height: fit-content;
     }
 }
 
