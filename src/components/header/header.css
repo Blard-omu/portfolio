@@ -112,8 +112,8 @@ header {
 }
 
 /* extra small devices */
-@media screen and (max-width:370px){
+@media screen and (max-width:380px){
 header{
-    height: 160vh;
+    height: 160vh !important;
 }
 }
