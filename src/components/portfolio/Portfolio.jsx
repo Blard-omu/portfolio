@@ -17,13 +17,14 @@ const Portfolio = () => {
               <article
                 className="portfolio-item"
                 key={project._id}
-                style={{ background: `url(${project.banner})` }}
+                style={{ background: `url(${project.banner})`, backgroundSize: "cover",
+                backgroundPosition: "center"}}
               >
                 <div className="portfolio-body">
                   <p>{project.title}</p>
-                  <p>{project.description}</p>
-                  <div className="portfolio-links">
-                    <a href={project.github_repo_link} className="btn" target="_blank">
+                  <p>{project.desccription}</p>
+                  <div className="portfolio-links btn-group" role="group" aria-label="Basic outlined example">
+                    <a href={project.github_repo_link} className="btn me-3" target="_blank">
                       {project.github_icon}
                     </a>
                     <a

@@ -21,6 +21,7 @@
 
   
   .portfolio-body {
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,13 +32,15 @@
   
   .portfolio-item:hover .portfolio-body {
     opacity: 1;
+    background-color: var(--color-main);
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 5%;
   }
+  
   
   .portfolio-item {
     transition: background 0.3s ease-in; 
   }
-/*   
-  .portfolio-item:hover {
-    background-size: 110%; 
-  } */
+
   
