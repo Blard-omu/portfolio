@@ -114,6 +114,6 @@ header {
 /* extra small devices */
 @media screen and (max-width:380px){
 header{
-    height: 160vh !important;
+    height: 140vh !important;
 }
 }
