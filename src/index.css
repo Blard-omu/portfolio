@@ -132,7 +132,4 @@ img {
         margin-bottom: 2rem;
     }
 }
-    .custom-tooltip {
-        --bs-tooltip-bg: var(--color-bg-variant);
-        --bs-tooltip-color: var(--color-white);
-      }
+    

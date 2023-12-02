@@ -36,3 +36,7 @@ nav a.active {
     outline: 1px solid #4db5ff;
 
 }
+.custom-tooltip {
+    --bs-tooltip-bg: var(--color-bg-variant);
+    --bs-tooltip-color: var(--color-white);
+  }
