@@ -38,6 +38,7 @@ body {
     background: var(--color-main);
     color: var(--color-white);
     line-height: 1.7;
+    overflow-y: hidden;
 }
 
 
