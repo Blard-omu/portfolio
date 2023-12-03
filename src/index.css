@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
+*, a, ul{
     margin: 0;
     padding: 0;
     border: 0;
@@ -38,14 +38,13 @@ body {
     background: var(--color-main);
     color: var(--color-white);
     line-height: 1.7;
-    overflow-y: visible;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 
 /* General styling */
-.container {
+.container-main {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -116,7 +115,7 @@ img {
 
 /* media queries for tablets */
 @media screen and (max-width:1024px) {
-    .container {
+    .container-main {
         width: var(--container-width-md);
     }
 
@@ -126,7 +125,7 @@ img {
 }
 /* media queries for small devices */
 @media screen and (max-width:600px) {
-    .container {
+    .container-main {
         width: var(--container-width-sm);
     }
 

@@ -49,7 +49,7 @@ const Header = () => {
               <div className="carousel-item">
                 <div className="img-container">
                   <img src={ME2} alt="me" />
-                </div>{" "}
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, sed enim? Distinctio consequatur iste veritatis, magnam
@@ -61,7 +61,7 @@ const Header = () => {
               <div className="carousel-item">
                 <div className="img-container">
                   <img src={ME} alt="me" />
-                </div>{" "}
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, sed enim? Distinctio consequatur iste veritatis, magnam
@@ -74,8 +74,7 @@ const Header = () => {
           </div>
         </div>
 
-        <a href="#contact" className="scroll__down">
-          {/* <FiChevronsRight /> */}
+        <a href="#footer" className="scroll__down">
           <FiChevronsDown />
         </a>
       </div>

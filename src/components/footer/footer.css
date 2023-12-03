@@ -1,0 +1,7 @@
+.footer{
+    background-color: var(--color-bg);
+}
+.col{
+    min-width: 350px;
+    padding: 1rem;
+}
