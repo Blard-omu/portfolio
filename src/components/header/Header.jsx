@@ -35,40 +35,46 @@ const Header = () => {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="img-container">
-                  <img src={ME} alt="me" />
-                </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Atque, sed enim? Distinctio consequatur iste veritatis, magnam
-                  quasi in facilis reprehenderit.
+                  quasi in facilis reprehenderit"
                 </p>
-                <b>Blard: </b>
-                <em>Software Developer</em>
+                <div className="img-container d-flex gap-2 align-items-center">
+                  <img src={ME} alt="me" />
+                  <div className="testify d-flex flex-column justify-content-around align-items-start">
+                    <h4>Blard</h4>
+                    <i>Software Developer</i>
+                  </div>
+                </div>
               </div>
               <div className="carousel-item">
-                <div className="img-container">
+                <p>
+                  "Pistinctio consequatur iste veritatis, magnam
+                  quasi in facilis reprehenderit"
+                </p>
+
+                <div className="img-container d-flex gap-2 align-items-center">
                   <img src={ME2} alt="me" />
+                  <div className="testify d-flex flex-column justify-content-around align-items-start">
+                    <h4>John</h4>
+                    <i>Pause Point Ltd</i>
+                  </div>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Atque, sed enim? Distinctio consequatur iste veritatis, magnam
-                  quasi in facilis reprehenderit.
-                </p>
-                <b>John: </b>
-                <em>CEO Pause Point</em>
               </div>
               <div className="carousel-item">
-                <div className="img-container">
-                  <img src={ME} alt="me" />
-                </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Atque, sed enim? Distinctio consequatur iste veritatis, magnam
-                  quasi in facilis reprehenderit.
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque, sed enim? Distinctio consequatur iste veritatis" 
                 </p>
-                <b>Bob: </b>
-                <em>Product Manager</em>
+
+                <div className="img-container d-flex gap-2 align-items-center">
+                  <img src={ME} alt="me" />
+                  <div className="testify d-flex flex-column justify-content-around align-items-start">
+                    <h4>Bob </h4>
+                    <i>Product Manager</i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
